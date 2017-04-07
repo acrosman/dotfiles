@@ -75,10 +75,13 @@ brew install python3
 brew install homebrew/php/composer
 brew install php-code-sniffer
 
+# OpenVPN and tunnelblick
+brew cask install tunnelblick
+
 # Toys
 brew install freeciv
 brew install simutrans
-brew install Caskroom/cask/0ad
+brew cask install 0ad
 
 
 # Remove outdated versions from the cellar.
