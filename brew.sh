@@ -62,6 +62,7 @@ brew install ssh-copy-id
 brew install testssl
 brew install tree
 brew install vbindiff
+brew install web100clt
 brew install webkit2png
 brew install zopfli
 
