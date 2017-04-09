@@ -50,6 +50,7 @@ brew install htop
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
+brew install mtr
 brew install nmap
 brew install openvpn
 brew install p7zip
@@ -79,10 +80,10 @@ brew install php-code-sniffer
 brew cask install tunnelblick
 
 # Toys
+brew install cowsays
 brew install freeciv
 brew install simutrans
 brew cask install 0ad
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
