@@ -75,7 +75,6 @@ brew install python3
 
 # PHP Tools
 brew install homebrew/php/composer
-brew install php-code-sniffer
 
 # OpenVPN and tunnelblick
 brew cask install tunnelblick
