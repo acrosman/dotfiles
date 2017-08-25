@@ -79,6 +79,9 @@ brew install homebrew/php/composer
 # OpenVPN and tunnelblick
 brew cask install tunnelblick
 
+# Meld
+brew cask install meld
+
 # Toys
 brew install cowsays
 brew install freeciv
