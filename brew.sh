@@ -48,6 +48,7 @@ brew install git
 brew install git-lfs
 brew install htop
 brew install imagemagick --with-webp
+brew install jmeter
 brew install lua
 brew install lynx
 brew install mtr
