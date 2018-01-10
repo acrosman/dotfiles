@@ -67,8 +67,14 @@ brew install web100clt
 brew install webkit2png
 brew install zopfli
 
+# Browsers
+brew cask install google-chrome
+brew cask install firefox
+brew cask install slack
+brew cask install atom
+
 # Virtual Box
-brew cask install virtualbox
+brew cask install virtualbox --force
 
 # Install the most recent versions of Python
 brew install python
@@ -84,7 +90,6 @@ brew cask install tunnelblick
 brew cask install meld
 
 # Toys
-brew install cowsays
 brew install freeciv
 brew install simutrans
 brew cask install 0ad
