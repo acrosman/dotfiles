@@ -70,8 +70,11 @@ brew install zopfli
 # Browsers
 brew cask install google-chrome
 brew cask install firefox
+
+# Other Tools I use a lot
 brew cask install slack
 brew cask install atom
+brew cask install filezilla
 
 # Virtual Box
 brew cask install virtualbox --force
