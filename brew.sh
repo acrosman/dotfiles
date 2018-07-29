@@ -75,6 +75,7 @@ brew cask install firefox
 brew cask install slack
 brew cask install atom
 brew cask install filezilla
+brew cask install inkscape
 
 # Virtual Box
 brew cask install virtualbox --force
@@ -84,6 +85,7 @@ brew install python
 brew install python3
 
 # PHP Tools
+brew install php7
 brew install homebrew/php/composer
 
 # OpenVPN and tunnelblick
@@ -96,6 +98,8 @@ brew cask install meld
 brew install freeciv
 brew install simutrans
 brew cask install 0ad
+brew cask isntall warzone2100
+brew cask install endless-sky
 
 # Remove outdated versions from the cellar.
 brew cleanup
