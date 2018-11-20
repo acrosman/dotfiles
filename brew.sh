@@ -76,6 +76,7 @@ brew cask install slack
 brew cask install atom
 brew cask install filezilla
 brew cask install inkscape
+brew cask install yakyak
 
 # Virtual Box
 brew cask install virtualbox --force
