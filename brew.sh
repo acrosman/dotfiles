@@ -6,24 +6,21 @@
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
-ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+brew link coreutils
 
 # Install some other useful utilities like `sponge`.
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
 brew install bash
-brew tap homebrew/versions
 brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
@@ -32,14 +29,12 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   chsh -s /usr/local/bin/bash;
 fi;
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`
+brew install wget
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
-#brew install homebrew/dupes/grep
-#brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install vim
+brew install screen
 
 # Install other useful binaries.
 brew install dnsmasq
@@ -47,9 +42,10 @@ brew install dnsmasq
 brew install git
 brew install git-lfs
 brew install htop
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install jmeter
 brew install lua
+brew install luarocks
 brew install lynx
 brew install mtr
 brew install nmap
@@ -74,19 +70,18 @@ brew cask install firefox
 brew cask install slack
 brew cask install visual-studio-code  
 brew cask install atom
-brew cask install filezilla
 brew cask install inkscape
 brew cask install yakyak
+brew cask install cyberduck 
 
 # Install Docker
 brew cask install docker
 
 # Install the most recent versions of Python
 brew install python
-brew install python3
 
 # PHP Tools
-brew install php7
+#brew install php7 # not currently needed but we'll see what the future holds
 brew install composer
 
 # OpenVPN and tunnelblick
@@ -102,8 +97,7 @@ brew cask install libreoffice
 # Toys
 brew install freeciv
 brew install simutrans
-brew cask install 0ad
-brew cask isntall warzone2100
+brew cask install 0-ad
 brew cask install endless-sky
 
 # Remove outdated versions from the cellar.
