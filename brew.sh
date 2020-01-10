@@ -37,13 +37,13 @@ brew install wget --with-iri
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
+#brew install homebrew/dupes/grep
 #brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install other useful binaries.
 brew install dnsmasq
-brew install dark-mode
+#brew install dark-mode
 brew install git
 brew install git-lfs
 brew install htop
@@ -53,7 +53,6 @@ brew install lua
 brew install lynx
 brew install mtr
 brew install nmap
-brew install openvpn
 brew install p7zip
 brew install pigz
 brew install pngcheck
@@ -65,7 +64,7 @@ brew install tree
 brew install vbindiff
 brew install web100clt
 brew install webkit2png
-brew install zopfli
+#brew install zopfli
 
 # Browsers
 brew cask install google-chrome
@@ -73,13 +72,14 @@ brew cask install firefox
 
 # Other Tools I use a lot
 brew cask install slack
+brew cask install visual-studio-code  
 brew cask install atom
 brew cask install filezilla
 brew cask install inkscape
 brew cask install yakyak
 
-# Virtual Box
-brew cask install virtualbox --force
+# Install Docker
+brew cask install docker
 
 # Install the most recent versions of Python
 brew install python
@@ -87,13 +87,17 @@ brew install python3
 
 # PHP Tools
 brew install php7
-brew install homebrew/php/composer
+brew install composer
 
 # OpenVPN and tunnelblick
+brew install openvpn
 brew cask install tunnelblick
 
 # Meld
 brew cask install meld
+
+# Office
+brew cask install libreoffice
 
 # Toys
 brew install freeciv
